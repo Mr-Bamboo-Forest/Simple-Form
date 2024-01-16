@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Numbers Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="pfp.jpg" />
+    </head>
+    <body>
+        <form action="connect.php" method="post">>
+            <!--Title-->
+            <header>
+            <h2>Responsive Form</h2>
+            </header>
+            
+            <!--Name-->
+            <div>
+            <label class="desc" id="title1" for="Field1">Full Name</label>
+            <div>
+                <input id="Field1" name="full_name" type="text" class="field text fn" size="8" tabindex="1">
+            </div>
+            </div>
+            
+            <!--Email-->
+            <div>
+            <label class="desc" id="title3" for="Field3">Email</label>
+            <div>
+                <input id="Field3" name="email" type="email" spellcheck="false" maxlength="255" tabindex="3"> 
+            </div>
+            </div>
+            
+            <!--Message-->
+            <div>
+            <label class="desc" id="title4" for="Field4">Message</label>
+            <div>
+                <textarea id="Field4" name="message" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+            </div>
+            </div>
+            
+
+            <!--Choices-->
+            <div>
+            <fieldset>
+            
+                <!--Select Choices-->
+                <legend id="title5" class="desc">Select a Choice</legend>
+                
+                <!--Gender-->
+                <div>
+                    <input id="radioDefault_5" name="gender" type="hidden" value="">
+                    <div>
+                        <input id="Field5_0" name="gender" type="radio" value="m" tabindex="5" checked="checked">
+                        <label class="choice" for="Field5_0">Male</label>
+                    </div>
+                <div>
+                    <input id="Field5_1" name="gender" type="radio" value="f" tabindex="6">
+                    <label class="choice" for="Field5_1">Female</label>
+                </div>
+                <div>
+                    <input id="Field5_2" name="gender" type="radio" value="o" tabindex="7">
+                    <label class="choice" for="Field5_2">Other</label>
+                </div>
+                </div>
+            </fieldset>
+            </div>
+            <!--
+            <div>
+            <fieldset>
+                <legend id="title6" class="desc">
+                Check All That Apply
+                </legend>
+                <div>
+                <div>
+                    <input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="8">
+                    <label class="choice" for="Field6">First Choice</label>
+                </div>
+                <div>
+                    <input id="Field7" name="Field7" type="checkbox" value="Second Choice" tabindex="9">
+                    <label class="choice" for="Field7">Second Choice</label>
+                </div>
+                <div>
+                    <input id="Field8" name="Field8" type="checkbox" value="Third Choice" tabindex="10">
+                    <label class="choice" for="Field8">Third Choice</label>
+                </span>
+                </div>
+            </fieldset>
+            </div>
+            
+            <div>
+            <label class="desc" id="title106" for="Field106">
+                Select a Choice
+            </label>
+            <div>
+            <select id="Field106" name="Field106" class="field select medium" tabindex="11"> 
+                <option value="First Choice">First Choice</option>
+                <option value="Second Choice">Second Choice</option>
+                <option value="Third Choice">Third Choice</option>
+            </select>
+            </div>
+            </div>-->
+            
+            <div>
+                <div>
+                    <input id="saveForm" name="saveForm" type="submit" value="Submit">
+            </div>
+            </div>
+            
+        </form>
+    </body>
+</html>
